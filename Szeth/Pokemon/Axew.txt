@@ -8,52 +8,53 @@ Type: Dragon
 Level: 5
   Exp - 6000
 Nature: Cocky [+2 STR, -2 CHA]
-AC: 14
-HP: 42
-Initiative: 1
-Speed: 25 Overland
-Proficiency Bonus: 3
-STAB: 1
+AC: 14 [Base]
+HP: 42 = 17 [Base] + (4 [Level - 1] * (4 [(HD/2) + 1] + 1 [CON])) + 5 [Loyalty 2]
+HIt Dice: d6 [Base]
+Initiative: 1 [DEX]
+Speed: 25 Overland [Base]
+Proficiency Bonus: 3 [Level 5-8]
+STAB: 1 [Level 3-6]
 Loyalty: 2
   Saving Throw Bonus - +2
   HP Bonus           - +5
 Special Traits: This One's Special!, White Marked Forehead, Bred [+2 STR, STR max stat increased]
 Held Item: N/A
 ***** Ability Scores *****
-  Strength     - 18 (+4 mod) [+2 STR from Nature, +2 STR from Breeding][STR Cap 24]
-  Dexterity    - 13 (+1 mod)
-  Constitution - 12 (+1 mod)
-  Intelligence - 6  (-2 mod)
-  Wisdom       - 10 (+0 mod) 
-  Charisma     - 8  (-1 mod) [-2 CHA from Nature][CHA Cap 18]
+  Strength     -    18 (+4 mod)[STR Cap 24] = 14 [Base] + 2 [Bold Nature] + 2 [Breeding]
+  Dexterity    -    13 (+1 mod)             = 13 [Base]
+  Constitution -    12 (+1 mod)             = 12 [Base]
+  Intelligence -     6 (-2 mod)             =  6 [Base]
+  Wisdom       -    10 (+0 mod)             = 10 [Base]
+  Charisma     -     8 (-1 mod)[CHA Cap 18] = 10 [Base] - 2 [Bold Nature]
 ***** Saving Throws *****
-  Strength     - +8 [Prof] + 2 [Loyalty 2]
-  Dexterity    - +2 + 2 [Loyalty 2]
-  Constitution - +2 + 2 [Loyalty 2]
-  Intelligence - -1 + 2 [Loyalty 2]
-  Wisdom       - +1 + 2 [Loyalty 2]
-  Charisma     - +0 + 2 [Loyalty 2]
+  Strength     -     9 =  4 [STR] + 2 [Loyalty 2] + 3 [Prof]
+  Dexterity    -     3 =  1 [DEX] + 2 [Loyalty 2]
+  Constitution -     3 =  1 [CON] + 2 [Loyalty 2]
+  Intelligence -     1 = -1 [INT] + 2 [Loyalty 2]
+  Wisdom       -     2 =  0 [WIS] + 2 [Loyalty 2]
+  Charisma     -     1 = -1 [CHA] + 2 [Loyalty 2]
 ***** Skills *****
-  Acrobatics      - +1 + 1 [Dragon Tamer]
-  Animal Handling - +0 + 1 [Dragon Tamer]
-  Arcana          - -2 + 1 [Dragon Tamer]
-  Athletics       - +7 [Prof] + 1 [Dragon Tamer]
-  Deception       - -1 + 1 [Dragon Tamer]
-  History         - -2 + 1 [Dragon Tamer]
-  Insight         - +0 + 1 [Dragon Tamer]
-  Intimidation    - +4 [Uses STR] + 1 [Dragon Tamer]
-  Investigation   - -2 + 1 [Dragon Tamer]
-  Medicine        - +0 + 1 [Dragon Tamer]
-  Nature          - -2 + 1 [Dragon Tamer]
-  Perception      - +0 + 1 [Dragon Tamer]
-  Performance     - -1 + 1 [Dragon Tamer]
-  Persuasion      - -1 + 1 [Dragon Tamer]
-  Religion        - -2 + 1 [Dragon Tamer]
-  Sleight of Hand - +1 + 1 [Dragon Tamer]
-  Stealth         - +1 + 1 [Dragon Tamer]
-  Survival        - +0 + 1 [Dragon Tamer]
+  Acrobatics      -  2 =  1 [DEX] + 1 [Dragon Tamer]
+  Animal Handling -  1 =  0 [WIS] + 1 [Dragon Tamer]
+  Arcana          - -1 = -2 [INT] + 1 [Dragon Tamer]
+  Athletics       -  8 =  4 [STR] + 1 [Dragon Tamer] + 3 [Prof]
+  Deception       -  0 = -1 [CHA] + 1 [Dragon Tamer]
+  History         - -1 = -2 [INT] + 1 [Dragon Tamer]
+  Insight         -  1 =  0 [WIS] + 1 [Dragon Tamer]
+  Intimidation    -  5 =  4 [STR, not CHA] + 1 [Dragon Tamer]
+  Investigation   - -1 = -2 [INT] + 1 [Dragon Tamer]
+  Medicine        -  1 =  0 [WIS] + 1 [Dragon Tamer]
+  Nature          - -1 = -2 [INT] + 1 [Dragon Tamer]
+  Perception      -  1 =  0 [WIS] + 1 [Dragon Tamer]
+  Performance     -  0 = -1 [CHA] + 1 [Dragon Tamer]
+  Persuasion      -  0 = -1 [CHA] + 1 [Dragon Tamer]
+  Religion        - -1 = -2 [INT] + 1 [Dragon Tamer]
+  Sleight of Hand -  2 =  1 [DEX] + 1 [Dragon Tamer]
+  Stealth         -  2 =  1 [DEX] + 1 [Dragon Tamer]
+  Survival        -  1 =  0 [WIS] + 1 [Dragon Tamer]
 
-  Passive Wisdom  - 10
+  Passive Wisdom  - 10 [WIS]
 
 ***** Move List (* needs to change on stat/level ups) *****
   1. Name              - Scratch
