@@ -1,0 +1,166 @@
+===== Axew - This One's Special! - Ledger =====
+
+Name: Axew
+Type: Dragon
+  Immunities    - N/A
+  Resistances   - Fire*0.5, Water*0.5, Electric*0.5, Grass*0.5
+  Vulnerability - Ice*2, Dragon*2, Fairy*2
+Level: 5
+  Exp - 6000
+Nature: Cocky [+2 STR, -2 CHA]
+AC: 14
+HP: 42
+Initiative: 1
+Speed: 25 Overland
+Proficiency Bonus: 3
+STAB: 1
+Loyalty: 2
+  Saving Throw Bonus - +2
+  HP Bonus           - +5
+Special Traits: This One's Special!, White Marked Forehead, Bred [+2 STR, STR max stat increased]
+Held Item: N/A
+***** Ability Scores *****
+  Strength     - 18 (+4 mod) [+2 STR from Nature, +2 STR from Breeding][STR Cap 24]
+  Dexterity    - 13 (+1 mod)
+  Constitution - 12 (+1 mod)
+  Intelligence - 6  (-2 mod)
+  Wisdom       - 10 (+0 mod) 
+  Charisma     - 8  (-1 mod) [-2 CHA from Nature][CHA Cap 18]
+***** Saving Throws *****
+  Strength     - +8 [Prof] + 2 [Loyalty 2]
+  Dexterity    - +2 + 2 [Loyalty 2]
+  Constitution - +2 + 2 [Loyalty 2]
+  Intelligence - -1 + 2 [Loyalty 2]
+  Wisdom       - +1 + 2 [Loyalty 2]
+  Charisma     - +0 + 2 [Loyalty 2]
+***** Skills *****
+  Acrobatics      - +1 + 1 [Dragon Tamer]
+  Animal Handling - +0 + 1 [Dragon Tamer]
+  Arcana          - -2 + 1 [Dragon Tamer]
+  Athletics       - +7 [Prof] + 1 [Dragon Tamer]
+  Deception       - -1 + 1 [Dragon Tamer]
+  History         - -2 + 1 [Dragon Tamer]
+  Insight         - +0 + 1 [Dragon Tamer]
+  Intimidation    - +4 [Uses STR] + 1 [Dragon Tamer]
+  Investigation   - -2 + 1 [Dragon Tamer]
+  Medicine        - +0 + 1 [Dragon Tamer]
+  Nature          - -2 + 1 [Dragon Tamer]
+  Perception      - +0 + 1 [Dragon Tamer]
+  Performance     - -1 + 1 [Dragon Tamer]
+  Persuasion      - -1 + 1 [Dragon Tamer]
+  Religion        - -2 + 1 [Dragon Tamer]
+  Sleight of Hand - +1 + 1 [Dragon Tamer]
+  Stealth         - +1 + 1 [Dragon Tamer]
+  Survival        - +0 + 1 [Dragon Tamer]
+
+  Passive Wisdom  - 10
+
+***** Move List (* needs to change on stat/level ups) *****
+  1. Name              - Scratch
+     Type              - Normal
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 20
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - 7 = 3 [Prof] + 4 [STR]
+    *Current Damage    - 1d12 + 4 [STR]
+     Description       - |
+                           You slash out at a creature in range. Make a melee attack, doing 1d6 +
+                           MOVE normal damage on a hit.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d12 at level 5, 2d8 at
+                           level 10, and 4d6 at level 17.
+
+
+  2. Name              - Leer
+     Type              - Normal
+     Move Power        - WIS/CHA
+     Move Time         - 1 action
+     PP                - 15
+     Duration          - 1 minute
+     Range             - 60ft
+    *Current To-Hit/DC - DC 11 against WIS Save = 8 + 3 [Prof] + 0 [WIS]
+    *Current Damage    - -1 AC on failure
+     Description       - |
+                           You stare down a target, reducing its will. The creature must make a WIS
+                           save against your Move DC. On a fail, allies may add +1 to any attack
+                           they target it with for the duration. This modifier can be stacked if it
+                           fails multiple leer saves, up to a maximum of +5.
+     Higher Levels     -  N/A  
+
+  3. Name              - Assurance
+     Type              - Dark
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 5
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - 7 = 3 [Prof] + 4 [STR]
+    *Current Damage    - 2d8 + 4 [STR]
+     Description       - |
+                           You strike an opponent where it already hurts. Make a melee attack
+                           against an opponent, dealing 1d10 + MOVE dark damage on a hit. If the
+                           target has already taken damage in the same round, double the damage
+                           dice.
+     Higher Levels     -  |
+                            The damage dice roll for this move changes to 2d8 at level 5, 5d4 at
+                            level 10, and 4d8 at level 17.
+
+
+  4. Name              - Dragon Rage
+     Type              - Dragon
+     Move Power        - STR
+     Move Time         - 1 action
+     PP                - 3
+     Duration          - Instantaneous
+     Range             - 100ft line
+    *Current To-Hit/DC - DC 15 against DEX Save = 8 + 3 [Prof] + 4 [STR]
+    *Current Damage    - 3d8 + 4 [STR] + 1 [STAB] on failure / half on success
+     Description       - |
+                           You unleash a devastating flow of energy in a 100 foot long line, 5 feet
+                           wide. Each creature caught in the blast must make a DEX save against
+                           your Move DC, taking 2d10 + MOVE dragon damage on a fail, and half as
+                           much on a save.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 3d8 at level 5, 4d10 at
+                           level 10, and 7d8 at level 17.
+
+  5. Name              - Dual Chop
+     Type              - Dragon
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 10
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - 7 = 3 [Prof] + 4 [STR]
+    *Current Damage    - 1d12 + 4[STR] per attack, + 1 [STAB] on one of them
+     Description       - |
+                           You lash out at an opponent(s) with two quick strikes. Make two melee
+                           attack rolls, dealing 1d6 + MOVE dragon damage with each hit.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d12 at level 5, 2d8 at
+                           level 10, and 4d6 at level 17
+
+***** Abilities *****
+  1. Name        - Thick Armor
+     Source      - This One's Special / Breeding Ability
+     Description - |
+                     This Axew's plated areas seem thicker than normal. It's capable of using a
+                     Reaction to increase it's AC by 3, thus potentially causing a hit attack to
+                     miss. This may be done twice per Scene.
+  2. Name        - Mold Breaker
+     Source      - Starting Ability
+     Description - |
+                     This Pokémon's moves ignore any abilities or moves that would lessen their
+                     effect or ability to hit an opponent (Due to things like Water Absorb, Snow
+                     Cloak, Thick Fat, etc.)
+***** Feats *****
+  1. Name        - Tireless
+     Source      - Level 4 Feat
+     Description - |
+                     Your Pokémon endures hours of rigorous training which keep it in battle longer
+                     than the average Pokémon. Gain +1 PP for every move.
+***** Other *****
+
+=================================

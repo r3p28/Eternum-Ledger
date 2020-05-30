@@ -1,0 +1,127 @@
+===== -Pokemon Name- Ledger =====
+
+Name: 
+Type: 
+  Immunities    - 
+  Resistances   - 
+  Vulnerability - 
+Level:
+  Exp - 
+Nature: 
+AC: 
+HP: 
+Initiative: 
+Speed: 
+Proficiency Bonus: 
+STAB: 
+Loyalty: 
+Special Traits: 
+Held Item: 
+***** Ability Scores *****
+  Strength     - 
+  Dexterity    - 
+  Constitution - 
+  Intelligence - 
+  Wisdom       - 
+  Charisma     - 
+***** Saving Throws *****
+  Strength     - 
+  Dexterity    - 
+  Constitution - 
+  Intelligence - 
+  Wisdom       - 
+  Charisma     - 
+***** Skills *****
+  Acrobatics      - 
+  Animal Handling - 
+  Arcana          - 
+  Athletics       - 
+  Deception       - 
+  History         - 
+  Insight         - 
+  Intimidation    - 
+  Investigation   - 
+  Medicine        - 
+  Nature          - 
+  Perception      - 
+  Performance     - 
+  Persuasion      - 
+  Religion        - 
+  Sleight of Hand - 
+  Stealth         - 
+  Survival        - 
+
+  Passive Wisdom  -
+
+***** Move List (* needs to change on stat/level ups) *****
+  1. Name              - 
+     Type              - 
+     Move Power        - 
+     Move Time         - 
+     PP                - 
+     Duration          - 
+     Range             - 
+    *Current To-Hit/DC - 
+    *Current Damage    - 
+     Description       - 
+     Higher Levels     - 
+
+  2. Name              - 
+     Type              - 
+     Move Power        - 
+     Move Time         - 
+     PP                - 
+     Duration          - 
+     Range             - 
+    *Current To-Hit/DC - 
+    *Current Damage    - 
+     Description       - 
+     Higher Levels     -  
+
+  3. Name              - 
+     Type              - 
+     Move Power        - 
+     Move Time         - 
+     PP                - 
+     Duration          - 
+     Range             - 
+    *Current To-Hit/DC - 
+    *Current Damage    - 
+     Description       - 
+     Higher Levels     -  
+
+  4. Name              - 
+     Type              - 
+     Move Power        - 
+     Move Time         - 
+     PP                - 
+     Duration          - 
+     Range             - 
+    *Current To-Hit/DC - 
+    *Current Damage    - 
+     Description       - 
+     Higher Levels     - 
+
+  5. Name              - 
+     Type              - 
+     Move Power        - 
+     Move Time         - 
+     PP                - 
+     Duration          - 
+     Range             - 
+    *Current To-Hit/DC - 
+    *Current Damage    - 
+     Description       - 
+     Higher Levels     - 
+
+***** Abilities *****
+  1. Name        -
+     Source      -
+     Description -
+***** Feats *****
+  1. Name        -
+     Source      -
+     Description -
+***** Other *****
+
+=================================

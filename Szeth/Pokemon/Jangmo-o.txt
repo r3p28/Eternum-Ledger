@@ -1,0 +1,165 @@
+===== Jangmo-o Ledger =====
+
+Name: Jangmo-o
+Type: Dragon
+  Immunities    - N/A
+  Resistances   - Fire*0.5, Water*0.5, Electric*0.5, Grass*0.5
+  Vulnerability - Ice*2, Dragon*2, Fairy*2
+Level: 5
+  Exp - 6000
+Nature: Brave [+2 STR, -2 WIS]
+AC: 13
+HP: 52 [Loyalty 2][Tough]
+Initiative: 0
+Speed: 25 Overland
+Proficiency Bonus: 3
+STAB: 1
+Loyalty: 2
+  Saving Throw Bonus - +2
+  HP Bonus           - +5
+Special Traits: N/A 
+Held Item: None
+***** Ability Scores *****
+  Strength     - 15 (+2 mod) [+2 STR from Nature][STR Cap 22]
+  Dexterity    - 10 (+0 mod)
+  Constitution - 12 (+1 mod)
+  Intelligence - 6  (-2 mod)
+  Wisdom       - 8  (-1 mod) [-2 WIS from Nature][WIS Cap 18]
+  Charisma     - 10 (+0 mod)
+***** Saving Throws *****
+  Strength     - +5 [Prof] + 2 [Loyalty 2]
+  Dexterity    - +0 + 2 [Loyalty 2]
+  Constitution - +1 + 2 [Loyalty 2]
+  Intelligence - -2 + 2 [Loyalty 2]
+  Wisdom       - -1 + 2 [Loyalty 2]
+  Charisma     - -0 + 2 [Loyalty 2]
+***** Skills *****
+  Acrobatics      - +0 + 1 [Dragon Tamer]
+  Animal Handling - -1 + 1 [Dragon Tamer]
+  Arcana          - -2 + 1 [Dragon Tamer]
+  Athletics       - +5 [Prof] + 1 [Dragon Tamer]
+  Deception       - +0 + 1 [Dragon Tamer]
+  History         - -2 + 1 [Dragon Tamer]
+  Insight         - -1 + 1 [Dragon Tamer]
+  Intimidation    - +0 + 1 [Dragon Tamer]
+  Investigation   - -2 + 1 [Dragon Tamer]
+  Medicine        - -1 + 1 [Dragon Tamer]
+  Nature          - -2 + 1 [Dragon Tamer]
+  Perception      - -1 + 1 [Dragon Tamer]
+  Performance     - +0 + 1 [Dragon Tamer]
+  Persuasion      - +0 + 1 [Dragon Tamer]
+  Religion        - -2 + 1 [Dragon Tamer]
+  Sleight of Hand - +0 + 1 [Dragon Tamer]
+  Stealth         - +0 + 1 [Dragon Tamer]
+  Survival        - -1 + 1 [Dragon Tamer]
+
+  Passive Wisdom  - 9
+
+***** Move List (* needs to change on stat/level ups) *****
+  1. Name              - Tackle
+     Type              - Normal
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 20
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - 5 = 3 [Prof] + 2 [STR]
+    *Current Damage    - 1d10 + 2 [STR]
+     Description       - |
+                           You rush forward and slam into an opponent. Make a melee attack roll
+                           against a target, doing 1d6 + MOVE normal damage on a hit.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d10 at level 5, 2d8 at
+                           level 10, and 5d4 at level 17.
+
+
+  2. Name              - Leer
+     Type              - Normal
+     Move Power        - WIS/CHA
+     Move Time         - 1 action
+     PP                - 15
+     Duration          - 1 minute
+     Range             - 60ft
+    *Current To-Hit/DC - DC 11 against WIS Save = 8 + 3 [Prof] + 0 [CHA]
+    *Current Damage    - -1 AC on failure
+     Description       - |
+                           You stare down a target, reducing its will. The creature must make a WIS
+                           save against your Move DC. On a fail, allies may add +1 to any attack
+                           they target it with for the duration. This modifier can be stacked if it
+                           fails multiple leer saves, up to a maximum of +5.
+     Higher Levels     -  N/A
+
+  3. Name              - Bide
+     Type              - Normal
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 5
+     Duration          - 2-3 rounds
+     Range             - 50ft
+    *Current To-Hit/DC - 5 = 3 [Prof] + 2 [STR]
+    *Current Damage    - *2 damage taken during Bide
+     Description       - |
+                           You embrace the damage done to you, waiting for your time to strike. Use
+                           your attack action to activate this move, and keep track of all damage
+                           done to you before your next turn. On your next turn, you lash out at an
+                           enemy with a normal ranged attack, striking them for double the amount
+                           of damage you took on a successful hit. At 10th Level, you can choose to
+                           hold Bide for a second turn for the chance to add additional damage to
+                           the attack
+     Higher Levels     - |
+                           You may continue to stockpile damage for 2 turns at level 10 and above.
+
+
+  4. Name              - Protect
+     Type              - Normal
+     Move Power        - None
+     Move Time         - 1 reaction
+     PP                - 3
+     Duration          - Instantaneous
+     Range             - Self
+    *Current To-Hit/DC - N/A
+    *Current Damage    - N/A
+     Description       - |
+                           You sense incoming danger and are able to quickly avoid it. When
+                           targeted by an attack, you may automatically avoid taking damage on the
+                           first instance of this reaction. On future instances of this move in the
+                           same combat, you must roll higher than a 15 on a d20 roll for the
+                           reaction to be successful.
+     Higher Levels     - N/A
+
+  5. Name              - Dragon Tail
+     Type              - Dragon
+     Move Power        - STR
+     Move Time         - 1 action
+     PP                - 3
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - DC 13 against CON Save = 8 + 3 [Prof] + 2 [STR]
+    *Current Damage    - 2d8 + 3 [STR] on failure / none on success
+     Description       - |
+                           You whip your dragon tail at an opponent in an attempt to send them
+                           away. Force a target to make a CON save against your Move DC. On a
+                           failure, they take 1d10 + MOVE dragon damage and are too frightened by
+                           you to remain in battle. In trainer battles, the target must be switched
+                           out if another creature is available. In wild battles, the target only
+                           flees if it a lower level than the user.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 2d8 at level 5, 5d4 at
+                           level 10, and 4d8 at level 17.
+
+***** Abilities *****
+  1. Name        - Bulletproof
+     Source      - Starting Ability
+     Description - |
+                     This Pokémon is immune to damage from Bullet, Ball, Bomb, etc. moves that fire
+                     physical projectiles. (Barrage, Bullet Seed, Egg Bomb, Leech Seed, etc.)
+***** Feats *****
+  1. Name        - Tough
+     Source      - Level 4 Feat
+     Description - |
+                     Your hit point maximum increases by an amount equal to twice your level when
+                     you gain this feat. Whenever you gain a level thereafter, your hit point
+                     maximum increases by an additional 2 hit points.
+***** Other *****
+
+=================================

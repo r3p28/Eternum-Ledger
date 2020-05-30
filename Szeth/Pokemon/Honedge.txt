@@ -1,0 +1,184 @@
+===== Honedge Ledger =====
+
+Name: Honedge
+Type: Steel/Ghost
+  Immunities    - Normal, Fight, Poison
+  Resistances   - Grass*0.5, Ice*0.5, Flying*0.5, Psychic*0.5, Bug*0.25, Rock*0.5, Dragon*0.5, Steel*0.5, Fairy*0.5 
+  Vulnerability - Fire*2, Ground*2, Ghost*2, Dark*2
+Level: 7
+  Exp:  22496
+Nature: Brave [+2 STR, -2 WIS]
+AC: 13
+HP: 47
+Initiative: 0
+Speed: 20 Fly (Hover)
+Proficiency Bonus: 3
+STAB: 2 [+2 When Bound]
+Loyalty: 1 (-1 from Player Level)
+  Saving Throw Bonus - +1
+Special Traits: Invisibility
+Held Item: None
+***** Ability Scores *****
+  Strength     - 16 (+3 mod) [+2 STR from Nature][STR Cap 22]
+  Dexterity    - 10 (+0 mod)
+  Constitution - 12 (+1 mod)
+  Intelligence - 8  (-1 mod)
+  Wisdom       - 8  (-1 mod) [-2 WIS from Nature][WIS Cap 18]
+  Charisma     - 10 (+0 mod)
+***** Saving Throws *****
+  Strength     - +3 + 1 [Loyalty 1]
+  Dexterity    - +0 + 1 [Loyalty 1]
+  Constitution - +4 [Prof] + 1 [Loyalty 1]
+  Intelligence - -1 + 1 [Loyalty 1]
+  Wisdom       - +2 [Prof] + 1 [Loyalty 1]
+  Charisma     - +0 + 1 [Loyalty 1]
+***** Skills *****
+  Acrobatics      - +0
+  Animal Handling - -1
+  Arcana          - +2 [Prof]
+  Athletics       - +3
+  Deception       - +0
+  History         - -1
+  Insight         - -1
+  Intimidation    - +5 [Prof][Uses STR]
+  Investigation   - -1
+  Medicine        - -1
+  Nature          - -1
+  Perception      - -1
+  Performance     - +0
+  Persuasion      - +0
+  Religion        - -1
+  Sleight of Hand - +0
+  Stealth         - +0
+  Survival        - -1
+
+  Passive Wisdom  - 9
+***** Move List (* needs to change on stat/level ups) *****
+  1. Name              - Shadow Sneak
+     Type              - Ghost [STAB]
+     Move Power        - DEX
+     Move Time         - 1 bonus action
+     PP                - 20
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - 6 = 3 [Prof] + 0 [DEX]
+    *Current Damage    - 1d6 + 0 [DEX] + 2 [STAB]
+     Description       - |
+                           You extend your shadow to strike an opponent from behind. As a bonus
+                           action, you can control your shadow to make an attack roll against a
+                           target within melee range dealing [1d6] normal damage on a hit.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d6 at level 5, 1d10 at
+                           level 10, and 1d12 at level 17.
+
+  2. Name              - Brutal Swing
+     Type              - Dark
+     Move Power        - STR
+     Move Time         - 1 action
+     PP                - 10
+     Duration          - Instantaneous
+     Range             - 5ft Circle
+    *Current To-Hit/DC - DC 14 against DEX Save = 8 + 3 [Prof] + 3 [STR]
+    *Current Damage    - 2d8 + 3 [STR] on failure / half on success
+     Description       - |
+                           You swing your arms around violently, attacking anything within a 5 foot
+                           circle, centered on yourself. All creatures in range must make a DEX
+                           saving throw against your Move DC, taking 1d10 + MOVE dark damage on a
+                           failure, or half as much on a success.
+     Higher Levels     - |
+                           The damage dice roll for this move starts at 1d10, changes to 2d8 at
+                           level 5, 5d4 at level 10, and 4d8 at level 17.
+
+  3. Name              - Pursuit
+     Type              - Dark
+     Move Power        - STR/DEX
+     Move Time         - 1 reaction
+     PP                - 3
+     Duration          - Instantaneous
+     Range             - 40ft
+    *Current To-Hit/DC - 6 = 3 [Prof] + 3 [STR]
+    *Current Damage    - 1d12 + 3 [STR]
+     Description       - |
+                           As a reaction, when a creature is fleeing or is switched out by their
+                           trainer, you may make a ranged attack roll against it, doing 1d6 + MOVE
+                           dark damage on a hit
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d12 at level 5, 2d8 at
+                           level 10, and 4d6 at level 17
+
+
+  4. Name              - Aerial Ace
+     Type              - Flying
+     Move Power        - DEX
+     Move Time         - 1 action
+     PP                - 5
+     Duration          - Instantaneous
+     Range             - Melee
+    *Current To-Hit/DC - Always Hits
+    *Current Damage    - 1d10 + 0 [DEX]
+     Description       - |
+                           You dive at an opponent with such speed that it is impossible for them
+                           to avoid. This move is guaranteed to hit for 1d6 + MOVE flying damage,
+                           unless during the invulnerable stage of Fly, Dig, Bounce, Dive,
+                           etc. moves.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 1d10 at level 5, 2d8 at
+                           level 10, and 5d4 at level 17.
+
+
+  5. Name              - Shadow Claw
+     Type              - Ghost [STAB]
+     Move Power        - STR/DEX
+     Move Time         - 1 action
+     PP                - 10
+     Duration          - Instantaneous
+     Range             - 20ft
+    *Current To-Hit/DC - 6 = 3 [Prof] + 3 [Str]
+    *Current Damage    - 2d8 + [3 STR] + 2 [STAB]
+     Description       - |
+                           You strike with a sharp claw made from shadows in range. Make a ranged
+                           attack, dealing 1d12 + MOVE ghost damage on a hit. This moves scores a
+                           critical hit on natural attack rolls of 19 and 20.
+     Higher Levels     - |
+                           The damage dice roll for this move changes to 2d8 at level 5, 2d12 at
+                           level 10, and 6d6 at level 17.
+
+***** Abilities *****
+  1. Name        - No Guard
+     Source      - Starting Ability
+     Description - Any attack made by or against this Pokémon has advantage
+
+  2. Name        - Weaponize
+     Source      - Hidden Ability
+     Description - |
+                     When Honedge/Doublade/Aegislash is being wielded as a weapon and is bound, and
+                     the wielder is hit with an attack, you may use a reaction to add the Pokemon's
+                     proficiency bonus to your AC against that attack, potentially causing it to
+                     miss.
+***** Feats *****
+  1. Name        - N/A
+     Source      - N/A
+     Description - N/A
+***** Other *****
+  Living Weapon           - (See https://docs.google.com/document/d/1-Mv8wpzcBdD4ImBLI5eFIcH2_guTxuW9fCz0_CLMM18 for exact details)
+  Enhancement Bonus       - +0
+  Temp Hp Gained          - 23 = 47 (Honedge's HP) * 50%
+  Num Moves to Select     - 2
+  Extra Attacks           - 0
+  Selhost's Blight/Gift?? - +2 STAB When Bound, Grants Phasing Strike
+  Description             - |
+Honedge, as a unique Pokemon situated to be utilized as a weapon, may be wielded as a normal one-handed Shortsword. At Level 10/20 it confers a +1/+2 bonus as a +1/+2 Shortsword to the wielder. Duoblade functions the same but is treated as two one-handed Shortswords. Duoblade also levels up to +1/+2 Bonus at Levels 10/20. Aegislash functions as a +1/+2 Shortsword & Shield. 
+
+The Honedge line can become 'bound' to its wielder as an Action, gaining the bonuses listed below. This may also be done as a Bonus Action by the wielder, and the wielder may unbind as a Bonus Action. If Honedge unbinds, it gains its normal turn back on the following round. All level breakpoints are based on the wielded Honedge/Duoblade/Aegislash.
+
+Honedge loses its own independent actions but granting the following bonuses: 
+•    Wielder gains 50/75/100% of Pokemon's current hp as temporary hp at Levels 1/8/16. (Temp HP on Honedge does not count towards this)
+•    Wielder selects 1/2/3 of the Pokemon's moves that can be used as if the Pokemon is using it while bound at Levels 1/7/14.
+•    The Wielder gains one extra attack during its Attack Action with a Duoblade and gains an extra attack from its Attack Action as well as reaction from Aegislash. Furthermore, the evolutionary line provides an extra attack during an Attack Action at Level 10 as well.
+•    The Wielder is able to trigger active feats and abilities as if they were the one using the borrowed Moves, despite otherwise using the Pokemons statistics for the borrowed moves.
+•    The Wielder gains Advantage on all Disarm checks against their Bound weapon. If a Move or other source would guarantee a Disarm, the Wielder instead may roll a Dexteriy Saving Throw with *Disadvantage* to beat the DC of the source.
+
+If the user takes damage equal to the Temporary Bonus HP granted, the Pokemon becomes incapacitated for the rest of the scene and gains a level of exhaustion. It still can be used as an inert weapon described above. Temporary HP that was lost is inflicted on the Honedge line after being separated. The Temporary HP does not reset upon being bound & unbound, but does reset upon a short rest.
+
+
+=================================
