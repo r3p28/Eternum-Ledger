@@ -1,34 +1,34 @@
 ===== Honedge Ledger =====
 
-Name: Honedge
+Name: Doublade
 Type: Steel/Ghost
   Immunities    - Normal, Fight, Poison
   Resistances   - Grass*0.5, Ice*0.5, Flying*0.5, Psychic*0.5, Bug*0.25, Rock*0.5, Dragon*0.5, Steel*0.5, Fairy*0.5 
   Vulnerability - Fire*2, Ground*2, Ghost*2, Dark*2
-Level: 7
-  Exp:  22496
+Level: 8
+  Exp:  30000
 Nature: Brave [+2 STR, -2 WIS]
-AC: 13
-HP: 47
+AC: 14
+HP: 77
 Initiative: 0
-Speed: 20 Fly (Hover)
+Speed: 25 Fly (Hover)
 Proficiency Bonus: 3
-STAB: 2 [+2 When Bound]
+STAB: 2 [+3 When Bound]
 Loyalty: 1 (-1 from Player Level)
   Saving Throw Bonus - +1
 Special Traits: Invisibility
 Held Item: None
 ***** Ability Scores *****
-  Strength     - 16 (+3 mod) [+2 STR from Nature][STR Cap 22]
+  Strength     - 18 (+4 mod) [+2 from Evolve][+2 STR from Nature][STR Cap 22]
   Dexterity    - 10 (+0 mod)
-  Constitution - 12 (+1 mod)
+  Constitution - 16 (+1 mod) [+4 from Evolve]
   Intelligence - 8  (-1 mod)
   Wisdom       - 8  (-1 mod) [-2 WIS from Nature][WIS Cap 18]
-  Charisma     - 10 (+0 mod)
+  Charisma     - 11 (+0 mod) [+1 from Menacing]
 ***** Saving Throws *****
-  Strength     - +3 + 1 [Loyalty 1]
+  Strength     - +4 + 1 [Loyalty 1]
   Dexterity    - +0 + 1 [Loyalty 1]
-  Constitution - +4 [Prof] + 1 [Loyalty 1]
+  Constitution - +6 [Prof] + 1 [Loyalty 1]
   Intelligence - -1 + 1 [Loyalty 1]
   Wisdom       - +2 [Prof] + 1 [Loyalty 1]
   Charisma     - +0 + 1 [Loyalty 1]
@@ -36,7 +36,7 @@ Held Item: None
   Acrobatics      - +0
   Animal Handling - -1
   Arcana          - +2 [Prof]
-  Athletics       - +3
+  Athletics       - +4
   Deception       - +0
   History         - -1
   Insight         - -1
@@ -78,8 +78,8 @@ Held Item: None
      PP                - 10
      Duration          - Instantaneous
      Range             - 5ft Circle
-    *Current To-Hit/DC - DC 14 against DEX Save = 8 + 3 [Prof] + 3 [STR]
-    *Current Damage    - 2d8 + 3 [STR] on failure / half on success
+    *Current To-Hit/DC - DC 15 against DEX Save = 8 + 3 [Prof] + 4 [STR]
+    *Current Damage    - 2d8 + 4 [STR] on failure / half on success
      Description       - |
                            You swing your arms around violently, attacking anything within a 5 foot
                            circle, centered on yourself. All creatures in range must make a DEX
@@ -96,8 +96,8 @@ Held Item: None
      PP                - 3
      Duration          - Instantaneous
      Range             - 40ft
-    *Current To-Hit/DC - 6 = 3 [Prof] + 3 [STR]
-    *Current Damage    - 1d12 + 3 [STR]
+    *Current To-Hit/DC - 7 = 3 [Prof] + 4 [STR]
+    *Current Damage    - 1d12 + 4 [STR]
      Description       - |
                            As a reaction, when a creature is fleeing or is switched out by their
                            trainer, you may make a ranged attack roll against it, doing 1d6 + MOVE
@@ -133,8 +133,8 @@ Held Item: None
      PP                - 10
      Duration          - Instantaneous
      Range             - 20ft
-    *Current To-Hit/DC - 6 = 3 [Prof] + 3 [Str]
-    *Current Damage    - 2d8 + [3 STR] + 2 [STAB]
+    *Current To-Hit/DC - 7 = 3 [Prof] + 4 [Str]
+    *Current Damage    - 2d8 + 4 [STR] + 2 [STAB]
      Description       - |
                            You strike with a sharp claw made from shadows in range. Make a ranged
                            attack, dealing 1d12 + MOVE ghost damage on a hit. This moves scores a
@@ -156,9 +156,13 @@ Held Item: None
                      proficiency bonus to your AC against that attack, potentially causing it to
                      miss.
 ***** Feats *****
-  1. Name        - N/A
-     Source      - N/A
-     Description - N/A
+  1. Name        - Menacing
+     Source      - Level 8 - General
+     Description - You become fearsome to others,	gaining the following benefits:
+	• Increase your Charisma score by 1, to a maximum of 20.
+	• You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
+	• When you take the Attack action on your turn, you can replace one attack with an attempt to demoralize one humanoid or Pokémon you can see within 30 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom (Insight) check. If your check succeeds, the target is frightened until the end of your next turn. If your check fails, the target can't be frightened by you in this way for 1 hour. At Level 7 you may use this as a Bonus Action in conjunction with your Attack Action.
+
 ***** Other *****
   Living Weapon           - (See https://docs.google.com/document/d/1-Mv8wpzcBdD4ImBLI5eFIcH2_guTxuW9fCz0_CLMM18 for exact details)
   Enhancement Bonus       - +0
